@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: pod-purchase-predict
-        image: gcr.io/kedromlops/purchase-predict-api
+        image: gcr.io/kedromlops/purchase-predict-api:latest
         env:
         - name: PORT
           value: "80"
