@@ -26,7 +26,7 @@ steps:
   - 'config.yaml'
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=europe-west1-b' # N'oublie pas de vérifier cette zone !
-  - 'CLOUDSDK_CONTAINER_CLUSTER=purchase-predict-api'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=purchase-predict-api-v2'
 
 images:
 - 'gcr.io/$PROJECT_ID/purchase-predict-api:$SHORT_SHA'
